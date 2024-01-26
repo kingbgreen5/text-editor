@@ -2,7 +2,6 @@
   "name": "JATE",
   "version": "1.0.0",
   "description": "A Simple Text Editor",
-  // "main": "server.js",
   "main": "index.js",
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
@@ -23,6 +22,13 @@
     "concurrently": "^5.2.0",
     "css-loader": "^6.9.1",
     "nodemon": "^2.0.4",
-    "style-loader": "^3.3.4"
+    "style-loader": "^3.3.4",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
   }
 }
